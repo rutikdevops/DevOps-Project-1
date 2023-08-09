@@ -1,2 +1,2 @@
-# DevOps-Project-1
-Jenkins, Maven, Docker
+# Complete DevOps CICD Project
+Using Jenkins, Maven, Docker
