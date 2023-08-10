@@ -4,7 +4,7 @@ Using Github, Jenkins, Maven, Docker
 
 # Detailed Blog Link:
 
-# Steps pf this project:
+# Steps of this project:
 
 Create 4 ec2 instance name as:- (AWS Linux-2, t2 micro)
 1. Jenkins-Server
