@@ -135,7 +135,7 @@ Now, your Passwordless connection between Ansible & Web server is successfull
 
 
 # 5. Passwordless connection between Jenkins to Ansible server :-
-Follow same steps of point no. 4 for jenkins to ansible connection
+Follow same steps from point no. 4 for jenkins to ansible connection
 
 
 
