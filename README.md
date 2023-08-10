@@ -95,7 +95,7 @@ systemctl start httpd
 ```
 
 
-# 3. Passwordless connection between Ansible & Web server :-
+# 4. Passwordless connection between Ansible & Web server :-
 - Go to ansible server and type command
 ```bash
 ssh-keygen (and press enter 2 to 3 times)
@@ -134,8 +134,8 @@ Now, your Passwordless connection between Ansible & Web server is successfull
 
 
 
-
-
+# 5. Passwordless connection between Jenkins to Ansible server :-
+Follow same steps of point no. 4 for jenkins to ansible connection
 
 
 
