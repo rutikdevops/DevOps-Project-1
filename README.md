@@ -80,11 +80,32 @@ In that inventory file you can simply add
 
 
 # 3. Connect web server with putty :-
+```bash
+ec2-user
+sudo su
+yum update -y
+hostnamectl set-hostname web-server
+bash
+```
+httpd Apache installation on web-server:-
+```bash
+yum install httpd -y
+systemctl enable httpd
+systemctl start httpd
+```
 
 
+# 3. Passwordless connection between Ansible & Web server :-
+- Go to ansible server and type command
+ssh-keygen (and press enter 2 to 3 times)
+ssh-copy-id -i root@(paste web-server private ip here)
 
-
-
+- Go to web-server and type command
+passwd root (Now enter passwd 2 times)
+vim /etc/ssh/sshd_config
+** #PermitRootLogin yes          (remove #)
+** PasswordAuthentication no     (replace no to yes)
+systemctl restart sshd
 
 
 
