@@ -8,9 +8,9 @@ Using Github, Jenkins, Ansible, web-server, AWS
 <br></br>
 
 
-# Steps of this project:
+# Steps of this Project:
 
-Create 4 ec2 instance name as:- (AWS Linux-2, t2 micro)
+- Create 4 ec2 instance name as:- (AWS Linux-2, t2 micro)
 1. Jenkins-Server
 2. Ansible-Server
 3. Web-Server
