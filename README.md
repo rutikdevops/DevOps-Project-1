@@ -1,6 +1,6 @@
 # Complete DevOps CICD Project
 Using Github, Jenkins, Ansible, web-server, AWS
-![Developer](https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/ffad3632-0976-413c-99e6-7b36f01a16bd)
+![Developer (1)](https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/2f0760c7-ac22-42e5-a184-b7ce9f0574b1)
 <br></br>
 
 
