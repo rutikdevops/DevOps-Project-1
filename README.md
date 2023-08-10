@@ -4,3 +4,10 @@ Using Github, Jenkins, Maven, Docker
 
 # Detailed Blog Link:
 
+# Steps pf this project:
+
+Create 4 ec2 instance name as:-
+1. Jenkins-Server
+2. Ansible-Server
+3. Web-Server
+4. Developer
