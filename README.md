@@ -6,8 +6,10 @@ Using Github, Jenkins, Maven, Docker
 
 # Steps pf this project:
 
-Create 4 ec2 instance name as:-
+Create 4 ec2 instance name as:- (AWS Linux-2, t2 micro)
 1. Jenkins-Server
 2. Ansible-Server
 3. Web-Server
 4. Developer
+
+1. Connect Jenkins server with putty:-
