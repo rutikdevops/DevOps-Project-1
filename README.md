@@ -227,7 +227,8 @@ Project-1>>configure>>Post-build Actions>>Send build artifacts over SSH
 
 
 
-
+# 13. Output:- 
+<img width="287" alt="image" src="https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/fe1a9b93-d99c-41f6-9ed3-75772d146245">
 
 
 
