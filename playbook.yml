@@ -1,0 +1,5 @@
+- hosts: all
+  tasks:
+    - copy:
+         src: /opt/index.html
+         dest: /var/www/html
