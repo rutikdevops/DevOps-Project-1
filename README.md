@@ -16,7 +16,7 @@ Create 4 ec2 instance name as:- (AWS Linux-2, t2 micro)
 <br></br>
 # 1. Connect Jenkins server with putty:-
 ```bash
-  ec2-user
+ec2-user
 sudo su
 yum update -y
 hostnamectl set-hostname jenkins
@@ -39,13 +39,15 @@ yum install jenkins -y
 systemctl enable jenkins.service
 systemctl start jenkins.service
 systemctl status jenkins.service
-```bash
+```
 
 Copy public ip of jenkins server with port no.8080
 15.207.51.80:8080
-
-
-
+<img width="382" alt="image" src="https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/1abe6c22-642f-44b6-be2f-4514f1c35e4a">
+copy this path and paste in terminal with "cat" command
+```bash
+/var/lib/jenkins/secrets/initialAdminPassword
+```
 
 
 
