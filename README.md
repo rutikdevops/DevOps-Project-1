@@ -14,4 +14,16 @@ Create 4 ec2 instance name as:- (AWS Linux-2, t2 micro)
 <img width="959" alt="image" src="https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/ad8f8f16-d059-4b7d-9bb2-b64c39bb2d8f">
 
 <br></br>
-1. Connect Jenkins server with putty:-
+# 1. Connect Jenkins server with putty:-
+```bash
+  ec2-user
+sudo su
+yum update -y
+hostnamectl set-hostname jenkins
+bash
+
+//Java installation
+yum install java* -y
+java --version
+alternatives --config java               ## Using this command you can choose any version of Java
+```
