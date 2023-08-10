@@ -41,7 +41,8 @@ systemctl start jenkins.service
 systemctl status jenkins.service
 ```bash
 
-
+Copy public ip of jenkins server with port no.8080
+15.207.51.80:8080
 
 
 
