@@ -213,6 +213,26 @@ Manage_jenkins>> Configure_system
 ![image](https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/1ef373ec-d1de-4bf8-be4e-8cd67cb1e0ec)
 
 Project-1>>configure>>build>>Send files or execute commands over SSH
+![image](https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/f5cef71f-9dab-46dc-b0ca-5c3c1a98f5b1)
+Exec command:- rsync -avh /var/lib/jenkins/workspace/project-1/*.html root@(paste ansible private ip here):/opt/index.html
+
+
+
+
+Manage_jenkins>> Configure_system
+![image](https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/d97a33eb-4da2-4722-b194-67bc2bcb121c)
+
+Project-1>>configure>>Post-build Actions>>Send build artifacts over SSH
+![image](https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/1011e86b-a70a-42bd-9418-dbd66c2364cd)
+
+
+
+
+
+
+
+
+
 
 
 
