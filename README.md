@@ -75,10 +75,12 @@ yum install git -y
 cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 - Now copy & paste this passwd in jenkins. so, jenkins is ready.
+
+
+
+
+
 <br></br>
-
-
-
 # 2. Connect Ansible server with putty :-
 ```bash
 ec2-user
