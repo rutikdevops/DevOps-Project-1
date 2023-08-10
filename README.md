@@ -236,6 +236,39 @@ ansible-playbook /sourcecode/playbook.yml
 ```
 
 
+# 11. Host website on web-server:-
+- copy public ip of web-server and paste it in new tab
+
+
+
+# 12. Access Developer system:-
+- connect developer server with putty
+```bash
+yum install git -y
+```
+
+```bash
+git clone https://github.com/rutikdevops/DevOps-Project-1.git
+```
+```bash
+cd DevOps-Project-1
+```
+
+```bash
+vim index.html
+```
+Do some changes in vi editor
+```bash
+My name is Rutik welcome to devops project
+```
+
+```bash
+git commit -m "f1" index.html
+```
+```bash
+git push origin master
+```
+
 
 
 # 13. Output:- 
