@@ -40,6 +40,11 @@ systemctl start jenkins.service
 systemctl status jenkins.service
 ```
 
+git installation on Jenkins server:-
+```bash
+yum install git -y
+```
+
 Copy public ip of jenkins server and paste it in new tab with port no.8080
 <img width="382" alt="image" src="https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/1abe6c22-642f-44b6-be2f-4514f1c35e4a">
 
@@ -137,6 +142,58 @@ Now, your Passwordless connection between Ansible & Web server is successfull
 # 5. Passwordless connection between Jenkins to Ansible server :-
 Follow same steps from point no. 4 for jenkins to ansible connection
 
+
+# 6. Create a Playbook in ansible server:-
+create a directory in ansible
+```bash
+mkdir /sourcecode
+```
+Go to sourcecode directory
+```bash
+cd /sourcecode
+```
+Now, create a playbook name as,
+```bash
+playbook.yml
+```
+In playbook.yml file type,
+```bash
+- hosts: all
+  tasks:
+    - copy:
+         src: /opt/index.html
+         dest: /var/www/html
+```
+
+
+
+# 7. Create a Github repo:-
+Github>> Create repo>> DevOps-Project-1(repo name)
+Create new file>>index.html(file name)
+In this file write,
+```bash
+My Name is Rutik
+```
+
+
+# 8. Integrate Github with Jenkins:-
+Github>> Settings>> Webhooks
+Payload URL:- (paste jenkins URL here)
+content type:- Application/json
+Secret:- Go to jenkins>>configure>>API Token>>add token>>copy token>>apply>>save ===> Paste this token
+Add Webhook>>click on page refresh
+
+
+
+# 9. Install plugin in jenkins:-
+Manage_jenkins>> Plugins>> available plugin>> publish over SSH>> restart jenkins
+
+# 10. Create project in Jenkins:-
+New_Item>> Project-1(Item_name)>> Freestyle_Project
+Source code mangmt>> copy code URL from github
+
+
+Manage_jenkins>> Configure_system
 
 
 
