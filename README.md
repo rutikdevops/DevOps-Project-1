@@ -194,6 +194,7 @@ Source code mangmt>> copy code URL from github
 
 
 Manage_jenkins>> Configure_system
+![image](https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/1ef373ec-d1de-4bf8-be4e-8cd67cb1e0ec)
 
 
 
