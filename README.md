@@ -40,6 +40,23 @@ systemctl start jenkins.service
 systemctl status jenkins.service
 ```
 
+set root passwd
+```bash
+passwd root     
+```
+Now, enter passwd 2 times
+```bash
+vim /etc/ssh/sshd_config
+```
+Do this changes in vi editor:-
+** #PermitRootLogin yes          (remove #)
+** PasswordAuthentication no     (replace no to yes)
+Now run this command:-
+```bash
+systemctl restart sshd
+```
+
+
 git installation on Jenkins server:-
 ```bash
 yum install git -y
@@ -192,11 +209,10 @@ Manage_jenkins>> Plugins>> available plugin>> publish over SSH>> restart jenkins
 New_Item>> Project-1(Item_name)>> Freestyle_Project
 Source code mangmt>> copy code URL from github
 
-
 Manage_jenkins>> Configure_system
 ![image](https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/1ef373ec-d1de-4bf8-be4e-8cd67cb1e0ec)
 
-
+Project-1>>configure>>build>>Send files or execute commands over SSH
 
 
 
