@@ -107,7 +107,7 @@ vim /etc/ansible/hosts
 ```
 
 
-
+<br></br>
 # 3. Connect web server with putty :-
 ```bash
 ec2-user
@@ -124,6 +124,7 @@ systemctl start httpd
 ```
 
 
+<br></br>
 # 4. Passwordless connection between Ansible & Web server :-
 - Go to ansible server and type command
 ```bash
@@ -163,10 +164,13 @@ exit    //for go to web-server to ansible
 
 
 
+<br></br>
 # 5. Passwordless connection between Jenkins to Ansible server :-
 - Follow same steps from point no. 4 for jenkins to ansible connection
 
 
+
+<br></br>
 # 6. Create a Playbook in ansible server:-
 - create a directory in ansible
 ```bash
@@ -191,6 +195,7 @@ playbook.yml
 
 
 
+<br></br>
 # 7. Create a Github repo:-
 - Github>> Create repo>> DevOps-Project-1(repo name)
 - Create new file>>index.html(file name)
@@ -200,6 +205,8 @@ My Name is Rutik
 ```
 
 
+
+<br></br>
 # 8. Integrate Github with Jenkins:-
 - Github>> Settings>> Webhooks
 - Payload URL:- (paste jenkins URL here)
@@ -209,9 +216,14 @@ My Name is Rutik
 
 
 
+
+<br></br>
 # 9. Install plugin in jenkins:-
 - Manage_jenkins>> Plugins>> available plugin>> publish over SSH>> restart jenkins
 
+
+
+<br></br>
 # 10. Create project in Jenkins:-
 - New_Item>> Project-1(Item_name)>> Freestyle_Project
 - Source code mangmt>> copy code URL from github
@@ -238,11 +250,13 @@ ansible-playbook /sourcecode/playbook.yml
 ```
 
 
+
+<br></br>
 # 11. Host website on web-server:-
 - copy public ip of web-server and paste it in new tab
 
 
-
+<br></br>
 # 12. Access Developer system:-
 - connect developer server with putty
 ```bash
@@ -272,18 +286,8 @@ git push origin master
 ```
 
 
-
+<br></br>
 # 13. Output:- 
 <img width="287" alt="image" src="https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/fe1a9b93-d99c-41f6-9ed3-75772d146245">
 
 
-
-
-
-
-
-
-
-
-```bash
-```
