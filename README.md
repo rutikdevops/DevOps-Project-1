@@ -146,7 +146,7 @@ vim /etc/ssh/sshd_config
 - Do this changes in vi editor:-
 ** #PermitRootLogin yes          (remove #)
 ** PasswordAuthentication no     (replace no to yes)
-Now run this command:-
+- Now run this command:-
 ```bash
 systemctl restart sshd
 ```
