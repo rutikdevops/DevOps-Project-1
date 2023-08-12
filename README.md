@@ -130,7 +130,7 @@ systemctl start httpd
 # 4. Passwordless connection between Ansible & Web server :-
 - Go to ansible server and type command
 ```bash
-ssh-keygen (and press enter 2 to 3 times)
+ssh-keygen      ##(and press enter 2 to 3 times)
 ```
 ```bash
 ssh-copy-id -i root@(paste web-server private ip here)
@@ -138,7 +138,7 @@ ssh-copy-id -i root@(paste web-server private ip here)
 
 - Go to web-server and type command
 ```bash
-passwd root (Now enter passwd 2 times)
+passwd root    ##(Now enter passwd 2 times)
 ```
 ```bash
 vim /etc/ssh/sshd_config
@@ -160,7 +160,7 @@ enter passwd
 root@(paste web-server private ip here)
 ```
 ```bash
-exit    //for go to web-server to ansible
+exit       ##for go to web-server to ansible
 ```
 - Now, your Passwordless connection between Ansible & Web server is successfull
 
