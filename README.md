@@ -1,6 +1,7 @@
 # Complete DevOps CICD Project
+
       Developer write a code and push the code in github. Github is integrate with Jenkins. Jenkins job run compiling & building. after compiling jenkins its created a file and jenkins pushed this file in Ansible. Jenkis triggered a playbook written in Ansible. In this playbook I write a code for deploy a software on Web-server. so, Developer do any changes in code it directly change in web-server. 
-Using Github, Jenkins, Ansible, web-server, AWS
+
 ![Developer (1)](https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/2f0760c7-ac22-42e5-a184-b7ce9f0574b1)
 <br></br>
 
