@@ -291,5 +291,6 @@ git push origin master
 <img width="287" alt="image" src="https://github.com/rutikdevops/DevOps-Project-1/assets/109506158/fe1a9b93-d99c-41f6-9ed3-75772d146245">
 
 
-# Priject Reference :-
+# Project Reference :-
+- Technical Cloud Knowledge - YouTube
 https://youtu.be/YsVJd0FPoYQ 
